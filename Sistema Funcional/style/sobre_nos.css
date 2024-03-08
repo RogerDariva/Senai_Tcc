@@ -103,12 +103,9 @@ body{
 }
 
 
-
-
-
 .div-sobre {
   width: 35%;
-  height: 50%;
+  height: 75vh;
   border-radius: 10px;
   position: absolute;
   top: 50%;

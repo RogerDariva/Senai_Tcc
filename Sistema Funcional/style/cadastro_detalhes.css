@@ -17,7 +17,7 @@ body {
   width: 100%; /* Ajuste a largura conforme necessário */
   max-width: 50%; /* Defina a largura máxima */
   box-sizing: border-box;
-  height: 50vh;
+  height: 70vh;
 }
 
 h2 {
@@ -101,7 +101,7 @@ img{
   display: flex;
   float: right;
   border-radius: 0px 10px 10px 0px;
-  height: 50vh;
+  height: 70vh;
   text-align: center;
 }
 

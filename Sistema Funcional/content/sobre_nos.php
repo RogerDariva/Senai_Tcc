@@ -37,7 +37,7 @@
 
     <div class="div-sobre">
 
-        <h1 class="titulo-sobre">NOME DA CONSTRUTORA</h1>
+        <h1 class="titulo-sobre">BRISAMAR</h1>
 
         <div>
             <div class="div-icone-sobre">
@@ -46,8 +46,10 @@
             </div>
 
             <div class="descricao-texto">
-                <p class="branco">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p class="branco">Bem-vindo à Brisamar Construções, onde transformamos sonhos em lares à beira-mar!
+
+                Na Brisamar, acreditamos que cada casa deve ser um refúgio, um lugar onde as ondas se encontram com os sonhos e a arquitetura se funde com a beleza natural do litoral.
+                </p>
             </div>
 
 

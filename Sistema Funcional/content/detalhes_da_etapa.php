@@ -75,19 +75,24 @@ $etapas = $query->fetchAll();
 <body>
 
 <header>
-    <div class="page">
-        <nav class="page__menu menu">
-            <ul class="menu__list r-list">
-                <li class="menu__logo"><img src="../image/obra360.png" alt="logo_obra_360"></li>
-                <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Detalhes</a></li>
-                <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Andamento</a></li>
-                <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Funcionários</a></li>
-                <li class="menu__group"><a href="#0" class="menu__link r-link text-underlined">Mensagens</a></li>
-                <li class="menu__group menu__logout"><a href="#0" class="menu__link r-link text-underlined">Sair</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+        <div class="page">
+            <nav class="page__menu menu">
+                <ul class="menu__list r-list">
+                    <li id="logout" class="menu__group menu__logout"><a href="timeline.php" class="menu__link r-link text-underlined">Sair</a></li>
+
+                    <!-----Nome e logo------>
+                    <li id="logout" class="menu__logo" style="display: flex; justify-content: space-between; align-items: center;">
+                        <img class="suaClasse" src="../image/obra360.png" alt="Logo do Obra360" width="100px" height="100px">
+                    </li>
+                </ul>
+            </nav>
+            <script>
+                document.getElementById('logout').onclick = function() {
+                    return confirm("Você realmente deseja sair?");
+                }
+            </script>
+        </div>
+    </header>
 
 <div class="container mt-5">
     <h2>Detalhes da Etapa da Obra</h2>
